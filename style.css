@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Patua+One');
+
+h1 {
+  font-family: 'Patua One', cursive;
+  color: #FF206E;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #8AA29E;
+  text-shadow: 0 0 15px white;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #8AA29E;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-shadow: 0 0 15px #000000;
+  font-size: 17px;
+  margin-bottom: 145px;
+  margin-top: 10px;
+  letter-spacing: 1.2px;
+}
+
+.container {
+  width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url('images/fam.JPG');
+}
+
+.card {
+  /*background-color: white;*/
+  padding: 15px 30px 0 30px;
+  margin: 0 auto;
+  width: 500px;
+}
+.list-in-line {
+  list-style: none;
+  display: inline-block;
+}
+.img-round {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+.hover:hover {
+  color: black;
+}
+a {
+  color: white;
+  background-color: #D90368;
+  padding: 4px 6px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'Patua One', cursive;
+}
+a:hover {
+  opacity: 0.6;
+}
